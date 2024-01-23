@@ -252,14 +252,13 @@ blockquote {
   font-family: 'Source Sans 3';
   padding-top: 10px;
   color: black;
-
 }
 
 .faq h1 {
   font-weight: 300;
   text-align: center;
   padding-top: 50px;
-  font-size: xx-large   ;
+  font-size: xx-large;
 }
 .questions {
   margin: auto;
@@ -268,15 +267,35 @@ blockquote {
   gap: 200px;
   padding-bottom: 50px;
 }
-.questions1, .questions2{
 
-}
-
- .questions2 div h2,.questions1 div h2 {
+.questions2 div h2,
+.questions1 div h2 {
   font-size: large;
 }
 
-.questions1 div p, .questions2 div p {
+.questions1 div p,
+.questions2 div p {
   font-size: small;
   color: grey;
+}
+footer {
+  background-color: #071629;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50rem;
+}
+.social_media img{
+  padding-left:20px;
+}
+footer p {
+    font-weight: 100;
+    font-size: 12px;
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans 3';
 }
